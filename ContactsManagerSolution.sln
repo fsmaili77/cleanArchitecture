@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager.UI", "ContactsManager.UI\ContactsManager.UI.csproj", "{861E2F60-E8BE-470E-ADAA-290989970293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0837FC30-BA58-4DDA-89E9-16E70ED492AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B94E5D78-C59E-42FC-9318-82D9C5CE362D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager.Core", "ContactsManager.Core\ContactsManager.Core.csproj", "{8EC4A04E-3ADD-4125-8897-0CD9622B1C01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861E2F60-E8BE-470E-ADAA-290989970293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861E2F60-E8BE-470E-ADAA-290989970293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861E2F60-E8BE-470E-ADAA-290989970293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861E2F60-E8BE-470E-ADAA-290989970293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC4A04E-3ADD-4125-8897-0CD9622B1C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC4A04E-3ADD-4125-8897-0CD9622B1C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC4A04E-3ADD-4125-8897-0CD9622B1C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC4A04E-3ADD-4125-8897-0CD9622B1C01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{861E2F60-E8BE-470E-ADAA-290989970293} = {0837FC30-BA58-4DDA-89E9-16E70ED492AA}
+		{8EC4A04E-3ADD-4125-8897-0CD9622B1C01} = {0837FC30-BA58-4DDA-89E9-16E70ED492AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21777F6E-F9CF-4C34-8393-FCCCEC30D264}
+	EndGlobalSection
+EndGlobal
